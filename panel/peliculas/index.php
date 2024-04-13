@@ -55,10 +55,6 @@ if (!isset($_SESSION['usuario_info']) OR empty($_SESSION['usuario_info']))
                 </ul>
             </li>
           </ul>
-
-
-
-
         </div><!--/.nav-collapse -->
       </div>
     </nav>

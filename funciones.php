@@ -1,6 +1,5 @@
 <?php
 
-
 function agregarPelicula($resultado, $id, $cantidad = 1){
     $_SESSION['carrito'][$id] = array(
         'id' => $resultado['id'],

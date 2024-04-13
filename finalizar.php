@@ -53,7 +53,7 @@ require 'funciones.php';
                         <legend>Completar Datos</legend>
                             <form action="completar_pedido.php" method="post">
                                 <div class="form-group">
-                                    <label>Nombre</label>
+                                    <label>Nombres</label>
                                     <input type="text" class="form-control" name="nombre" required>
                                 </div>
                                 <div class="form-group">
@@ -79,8 +79,6 @@ require 'funciones.php';
             </div>
         </div>
         
-      
-
     </div> <!-- /container -->
 
 

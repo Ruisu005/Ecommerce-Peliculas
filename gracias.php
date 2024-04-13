@@ -48,11 +48,8 @@ require 'funciones.php';
                 </p>
             </div>
 
-
-
         </div>
       
-
     </div> <!-- /container -->
 
 

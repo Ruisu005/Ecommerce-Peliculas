@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] ==='POST'){
             exit('Completar titulo');
         
         if(empty($_POST['descripcion']))
-            exit('Completar titulo');
+            exit('Completar Descripcion');
 
         if(empty($_POST['categoria_id']))
             exit('Seleccionar una Categoria');
@@ -103,7 +103,6 @@ function subirFoto() {
     move_uploaded_file($_FILES['foto']['tmp_name'],$archivo);
 
     return $_FILES['foto']['name'];
-
 
 }
 

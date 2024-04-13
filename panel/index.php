@@ -44,7 +44,7 @@
                     </div>
                     <div class="panel-body">
                         <p class="text-center">
-                            <img src="../assets/imagenes/logo.png" alt="">
+                            <img style="width: 200px;" src="../assets/imagenes/movie-mart.png" alt="movie-mart">
                         </p>
                         <div class="form-group">
                             <label>Usuario</label>

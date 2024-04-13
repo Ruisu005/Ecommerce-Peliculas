@@ -39,7 +39,9 @@ class Pelicula{
     }
 
     public function actualizar($_params){
-        $sql = "UPDATE `peliculas` SET `titulo`=:titulo,`descripcion`=:descripcion,`foto`=:foto,`precio`=:precio,`categoria_id`=:categoria_id,`fecha`=:fecha  WHERE `id`=:id";
+        $sql = "UPDATE `peliculas` SET `titulo`=:titulo,`descripcion`=:descripcion,
+        `foto`=:foto,`precio`=:precio,`categoria_id`=:categoria_id,`fecha`=:fecha  
+        WHERE `id`=:id";
 
         $resultado = $this->cn->prepare($sql);
 

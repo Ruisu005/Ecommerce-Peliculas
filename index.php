@@ -87,12 +87,8 @@ require 'funciones.php';
 
           <?php }?>
 
-
-
-
         </div>
       
-
     </div> <!-- /container -->
 
 

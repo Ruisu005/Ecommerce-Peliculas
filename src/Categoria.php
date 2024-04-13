@@ -28,6 +28,4 @@ class Categoria{
         return false;
     }
 
-
-
 }
